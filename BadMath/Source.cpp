@@ -17,12 +17,12 @@ int main()
 	float n1 =0 , n2 = 0, n3 = 0;
 	cout << "This program calculates the average of three numbers." << endl;
 	cout << "First number: "; cin >> n1;
-	cout << n1;
+
 	cout << "Second number: "; cin >> n2;
-	cout << n2;
+
 	//Was cin n2 instead of n3
 	cout << "Third number: "; cin >> n3;
-	cout << n3;
+
 
 	float a = average(n1, n2, n3);
 
